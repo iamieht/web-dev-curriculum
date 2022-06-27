@@ -19,6 +19,11 @@ button {
   background-color: black;
 }
 
+button:hover {
+  background-color: white;
+  color: #444;
+}
+
 .article-header {
   font-size: 22px;
   text-align: center;
@@ -47,4 +52,8 @@ button {
 a:link {
   color: black;
   font-weight: bold;
+}
+
+a:hover {
+  text-decoration: none;
 }
