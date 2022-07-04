@@ -7,7 +7,7 @@ Web Development Curriculum (Self-taught)
 | Course | Status | Repo |
 | ------ | ------ | ---- |
 
-| [Introduction to Front-End Development](https://www.coursera.org/learn/introduction-to-front-end-development/) | In Progress |
+| [Introduction to Front-End Development](https://www.coursera.org/learn/introduction-to-front-end-development/) | In Progress | --- |
 
 ## HTML & CSS
 
@@ -20,4 +20,4 @@ Web Development Curriculum (Self-taught)
 
 | Course                                                                                                                    | Status |
 | ------------------------------------------------------------------------------------------------------------------------- | ------ |
-| [The Complete JavaScript Course 2022: From Zero to Expert!](https://www.udemy.com/course/the-complete-javascript-course/) | ---    |
+| [The Complete JavaScript Course 2022: From Zero to Expert!](https://www.udemy.com/course/the-complete-javascript-course/) | ------ |
