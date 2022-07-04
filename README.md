@@ -2,6 +2,13 @@
 
 Web Development Curriculum (Self-taught)
 
+## Introduction
+
+| Course | Status | Repo |
+| ------ | ------ | ---- |
+
+| [Introduction to Front-End Development](https://www.coursera.org/learn/introduction-to-front-end-development/) | In Progress |
+
 ## HTML & CSS
 
 | Course                                                                                                                                          | Status      | Repo                                                                                                                 |
