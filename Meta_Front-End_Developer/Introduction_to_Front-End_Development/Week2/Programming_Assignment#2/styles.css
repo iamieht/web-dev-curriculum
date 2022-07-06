@@ -19,7 +19,7 @@ h2 {
   margin: auto;
 }
 
-h2 span {
+h2 > span {
   color: #fa9f42;
   font-size: 0.75em;
 }
