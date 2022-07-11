@@ -17,8 +17,7 @@ Web Development Curriculum (Self-taught)
 
 ## JavaScript
 
-| Course                                                                                                                    | Status | Repo   |
-| ------------------------------------------------------------------------------------------------------------------------- | ------ | ------ |
-| [The Complete JavaScript Course 2022: From Zero to Expert!](https://www.udemy.com/course/the-complete-javascript-course/) | ------ | ------ |
-
-| [Programming with JavaScript](https://www.coursera.org/learn/programming-with-javascript) | In Progress | [Link]() |
+| Course                                                                                                                    | Status      | Repo     |
+| ------------------------------------------------------------------------------------------------------------------------- | ----------- | -------- |
+| [The Complete JavaScript Course 2022: From Zero to Expert!](https://www.udemy.com/course/the-complete-javascript-course/) | ------      | ------   |
+| [Programming with JavaScript](https://www.coursera.org/learn/programming-with-javascript)                                 | In Progress | [Link]() |
