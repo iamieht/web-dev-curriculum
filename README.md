@@ -4,9 +4,9 @@ Web Development Curriculum (Self-taught)
 
 ## Introduction
 
-| Course                                                                                                         | Status      | Repo |
-| -------------------------------------------------------------------------------------------------------------- | ----------- | ---- |
-| [Introduction to Front-End Development](https://www.coursera.org/learn/introduction-to-front-end-development/) | In Progress | ---  |
+| Course                                                                                                         | Status    | Repo                                                                                                                           |
+| -------------------------------------------------------------------------------------------------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| [Introduction to Front-End Development](https://www.coursera.org/learn/introduction-to-front-end-development/) | Completed | [Link](https://github.com/iamieht/web-dev-curriculum/tree/main/Meta_Front-End_Developer/Introduction_to_Front-End_Development) |
 
 ## HTML & CSS
 
