@@ -21,3 +21,10 @@ Web Development Curriculum (Self-taught)
 | ------------------------------------------------------------------------------------------------------------------------- | --------- | -------------------------------------------------------------------------------------------------------------------- |
 | [The Complete JavaScript Course 2022: From Zero to Expert!](https://www.udemy.com/course/the-complete-javascript-course/) | ------    | ------                                                                                                               |
 | [Programming with JavaScript](https://www.coursera.org/learn/programming-with-javascript)                                 | Completed | [Link](https://github.com/iamieht/web-dev-curriculum/tree/main/Meta_Front-End_Developer/Programming_with_JavaScript) |
+
+## Version Control
+
+| Course | Status | Repo |
+| ------ | ------ | ---- |
+
+| [Introduction to Version Control](https://www.coursera.org/learn/introduction-to-version-control/) | In Progress | [Link]() |
