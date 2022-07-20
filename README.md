@@ -24,7 +24,6 @@ Web Development Curriculum (Self-taught)
 
 ## Version Control
 
-| Course | Status | Repo |
-| ------ | ------ | ---- |
-
+| Course                                                                                             | Status      | Repo     |
+| -------------------------------------------------------------------------------------------------- | ----------- | -------- |
 | [Introduction to Version Control](https://www.coursera.org/learn/introduction-to-version-control/) | In Progress | [Link]() |
