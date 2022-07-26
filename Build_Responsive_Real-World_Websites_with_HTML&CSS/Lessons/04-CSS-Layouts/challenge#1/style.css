@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+  color: black;
+}
+
+.container {
+  width: 825px;
+  margin: 50px auto;
+}
+
+article {
+  border: 5px solid black;
+}
+
+.product-details-list {
+  margin-left: 20px;
+}
+li {
+  list-style: square;
+  margin-bottom: 10px;
+}
+
+button {
+  font-size: 22px;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  border-top: solid 5px black;
+  background-color: black;
+  cursor: pointer;
+  width: 100%;
+  padding: 14px 0;
+}
+
+button:hover {
+  background-color: white;
+  color: #444;
+}
+
+.article-header {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.title-header {
+  font-size: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 15px;
+}
+
+.article-price {
+  font-size: 24px;
+  float: left;
+}
+
+.article-delivery {
+  font-size: 12px;
+  font-weight: bold;
+  color: #777;
+  text-transform: uppercase;
+  margin: 0;
+  float: right;
+  margin-top: 8px;
+}
+
+.article-description {
+  margin: 10px 0;
+  clear: both;
+}
+
+.product-details {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+a:link,
+a:visited {
+  color: black;
+  font-weight: bold;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+/* Squares */
+.squares {
+  padding-left: 0;
+  margin-left: 0px;
+}
+.square {
+  list-style: none;
+  height: 25px;
+  width: 25px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+.black {
+  background-color: #000;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: orangered;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.brown {
+  background-color: brown;
+}
+
+.article-header::after {
+  content: "SALE";
+  background-color: orangered;
+  height: 15px;
+  width: 40px;
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: -15px;
+  left: -30px;
+}
+
+/* FLOATS */
+.post-img {
+  float: left;
+  margin-right: 30px;
+}
+
+.column-2 {
+  width: 243px;
+  float: left;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+
+.column-3 {
+  width: 243px;
+  float: left;
+}
