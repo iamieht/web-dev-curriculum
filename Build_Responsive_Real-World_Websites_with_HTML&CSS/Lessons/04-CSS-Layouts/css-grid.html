@@ -61,16 +61,30 @@
       }
       .container--2 {
         /* STARTER */
-        display: none;
+
         font-family: sans-serif;
         background-color: black;
         font-size: 40px;
-        margin: 100px;
+        margin: 40px;
 
-        width: 1000px;
+        width: 700px;
         height: 600px;
 
         /* CSS GRID */
+        display: grid;
+        gap: 50px;
+        grid-template-columns: 125px 200px 125px;
+        grid-template-rows: 250px 100px;
+        justify-content: center;
+        align-content: center;
+
+        align-items: center;
+        justify-items: center;
+      }
+
+      .el--3 {
+        align-self: end;
+        justify-self: end;
       }
     </style>
   </head>
