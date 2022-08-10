@@ -27,10 +27,15 @@ SPACING SYSTEM (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 */
 
-*/ * {
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+html {
+  /* Percentage of user's browser font-size setting: 10px / 16px(default value) = 0.625 = 62.5% */
+  font-size: 62.5%;
 }
 
 body {
