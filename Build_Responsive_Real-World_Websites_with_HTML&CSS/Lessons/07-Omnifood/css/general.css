@@ -52,6 +52,7 @@ SPACING SYSTEM (px)
 html {
   /* Percentage of user's browser font-size setting: 10px / 16px(default value) = 0.625 = 62.5% */
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -59,6 +60,7 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+  overflow-x: hidden;
 }
 /**********************/
 /* GENERAL COMPONENTS */
