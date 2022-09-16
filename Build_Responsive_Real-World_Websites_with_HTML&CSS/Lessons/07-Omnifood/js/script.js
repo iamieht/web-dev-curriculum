@@ -18,6 +18,11 @@ function checkFlexGap() {
 }
 checkFlexGap();
 
+// CurrentYear
+const yearEl = document.querySelector(".year");
+const currentYear = new Date().getFullYear();
+yearEl.textContent = currentYear;
+
 // https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js
 
 /*
