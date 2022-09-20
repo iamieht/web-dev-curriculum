@@ -13,6 +13,7 @@ console.log(
   population
 );
 
+// Assignment 2
 // Data Types
 // 1.Number: floating point numbers
 // 2.String
@@ -20,4 +21,12 @@ console.log(
 // 4.Undefined: value when a variable is not yet defined let children;
 // 5.Null: empty value
 // 6.Symbol: value that is unique ans cannot be changed.
-// 7. BigInt: Larger integers
+// 7.BigInt: Larger integers
+let isIsland = false;
+let language;
+console.log(
+  typeof isIsland,
+  typeof population,
+  typeof country,
+  typeof language
+);
