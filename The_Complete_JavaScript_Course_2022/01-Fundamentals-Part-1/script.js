@@ -61,3 +61,19 @@ if (marksBMI > johnsBMI) {
 } else {
   console.log(`John's BMI (${johnsBMI}) is higher than Mark's (${marksBMI})`);
 }
+
+// Coding Challenge #3
+// Test Data: Dolphins: 96, 108, 89. Koalas: 88, 91, 110
+// 1. Calculate Avg Score
+const avgDolphins = (97 + 112 + 101) / 3;
+const avgKoalas = (109 + 95 + 123) / 3;
+// 2. Determined the winner
+if (avgDolphins === avgKoalas && avgDolphins >= 100 && avgKoalas >= 100) {
+  console.log(`There is a draw`);
+} else if (avgDolphins > avgKoalas && avgDolphins >= 100) {
+  console.log(`Dolphins wins`);
+} else if (avgKoalas > avgDolphins && avgKoalas >= 100) {
+  console.log(`Koalas wins`);
+} else {
+  console.log(`There is no winner`);
+}
