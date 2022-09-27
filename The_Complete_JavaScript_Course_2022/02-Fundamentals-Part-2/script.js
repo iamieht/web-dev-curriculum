@@ -51,3 +51,29 @@ const totals = new Array(
 );
 console.log(calcTip(100));
 console.log(bills, tips, totals);
+
+// Objects
+const jonas = {
+  firstName: "Jonas",
+  lastName: "Schmedtmann",
+  birthYear: 1991,
+  job: "teacher",
+  friends: ["Michael", "Peter", "Steven"],
+  hasDriversLicense: true,
+
+  calcAge: function () {
+    this.age = 2037 - this.birthYear;
+    return this.age;
+  },
+
+  getSummary: function () {
+    return `${this.firstName} is a ${this.calcAge()} -year old ${
+      this.job
+    }, and he has ${this.hasDriversLicense ? "a" : "no"} driver's license.`;
+  },
+};
+
+console.log(jonas.lastName);
+console.log(jonas["lastName"]);
+console.log(jonas.calcAge());
+console.log(jonas.getSummary());
