@@ -125,3 +125,10 @@ for (let i = 0; i < bills.length; i++) {
 bills.forEach((element) => {
   console.log(element);
 });
+
+// While loop
+let rep = 1;
+while (rep <= 10) {
+  console.log(`Lifting weights repetition ${rep}`);
+  rep++;
+}
