@@ -77,3 +77,36 @@ console.log(jonas.lastName);
 console.log(jonas["lastName"]);
 console.log(jonas.calcAge());
 console.log(jonas.getSummary());
+
+// Coding Challenge #3
+const mark = {
+  fullName: "Mark Miller",
+  weight: 78,
+  height: 1.69,
+
+  calcBMI: function () {
+    this.bmi = this.weight / this.height ** 2;
+    return this.bmi;
+  },
+};
+
+const john = {
+  fullName: "John Smith",
+  weight: 92,
+  height: 1.95,
+
+  calcBMI: function () {
+    this.bmi = this.weight / this.height ** 2;
+    return this.bmi;
+  },
+};
+
+if (john.calcBMI() > mark.calcBMI()) {
+  console.log(
+    `John's BMI (${john.calcBMI()}) is higher than Mark's (${mark.calcBMI()})`
+  );
+} else {
+  console.log(
+    `Mark's BMI (${mark.calcBMI()}) is higher than John's (${john.calcBMI()})`
+  );
+}
