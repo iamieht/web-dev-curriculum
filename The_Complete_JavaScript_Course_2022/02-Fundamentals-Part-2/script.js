@@ -30,13 +30,13 @@
 
 // // Coding Challenge #2
 
-// function calcTip(billValue) {
-//   if (billValue >= 50 && billValue <= 300) {
-//     return billValue * 0.15;
-//   } else {
-//     return billValue * 0.2;
-//   }
-// }
+function calcTip(billValue) {
+  if (billValue >= 50 && billValue <= 300) {
+    return billValue * 0.15;
+  } else {
+    return billValue * 0.2;
+  }
+}
 
 // const bills = new Array(125, 555, 44);
 // const tips = new Array(
@@ -117,18 +117,40 @@
 // }
 
 // Looping Arrays
-const bills = new Array(125, 555, 44);
+// const bills = new Array(125, 555, 44);
+// for (let i = 0; i < bills.length; i++) {
+//   console.log(bills[i]);
+// }
+
+// bills.forEach((element) => {
+//   console.log(element);
+// });
+
+// // While loop
+// let rep = 1;
+// while (rep <= 10) {
+//   console.log(`Lifting weights repetition ${rep}`);
+//   rep++;
+// }
+
+// Challenge #4
+const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+const tips = [];
+const totals = [];
+
 for (let i = 0; i < bills.length; i++) {
-  console.log(bills[i]);
+  tips.push(calcTip(bills[i]));
+  totals.push(bills[i] + tips[i]);
 }
 
-bills.forEach((element) => {
-  console.log(element);
-});
+console.log(bills, tips, totals);
 
-// While loop
-let rep = 1;
-while (rep <= 10) {
-  console.log(`Lifting weights repetition ${rep}`);
-  rep++;
+function calcAverage(Array) {
+  let total = 0;
+  Array.forEach((element) => {
+    total += element;
+  });
+  return total / Array.length;
 }
+
+console.log(calcAverage(totals));
