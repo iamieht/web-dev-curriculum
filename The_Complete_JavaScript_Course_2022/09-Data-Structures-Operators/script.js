@@ -141,3 +141,11 @@ const guests1 = restaurant.numGuests || 10;
 console.log(guests1);
 
 console.log(0 && 'Jonas');
+
+// The nullish coalescing operator (??): null and undefined (NOT 0 nor '')
+restaurant.numGuests = 0;
+const guests = restaurant.numGuests || 10;
+console.log(guests);
+
+const guestCorrect = restaurant.numGuests ?? 10;
+console.log(guestCorrect);
