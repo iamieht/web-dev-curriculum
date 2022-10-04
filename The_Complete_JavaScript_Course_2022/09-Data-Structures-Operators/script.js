@@ -134,3 +134,10 @@ console.log(add(3, 4, 5, 6, 7));
 console.log(add(3));
 
 restaurant.orderPizza('mushrooms', 'onion', 'olives', 'spinach');
+
+// short-circuit evaluation: OR shortcircuits when the first value is falsy. AND when the first value is true
+console.log(3 || 'Jonas');
+const guests1 = restaurant.numGuests || 10;
+console.log(guests1);
+
+console.log(0 && 'Jonas');
