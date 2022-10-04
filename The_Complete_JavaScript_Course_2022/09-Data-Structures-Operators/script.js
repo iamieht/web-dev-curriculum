@@ -36,6 +36,10 @@ const restaurant = {
       `Order received! ${this.starterMenu[starterIndex]} and ${this.mainMenu[mainIndex]} will be delivered to ${address} at ${time}`
     );
   },
+
+  orderPasta: function (ing1, ing2, ing3) {
+    console.log(`Here is your delicious past with ${ing1}, ${ing2}, ${ing3}`);
+  },
 };
 
 restaurant.orderDelivery({
@@ -68,3 +72,31 @@ const {
   fri: { open, close },
 } = openingHours;
 console.log(open, close);
+
+// Spread operators
+const arr = [7, 8, 9];
+const newArr = [1, 2, ...arr];
+console.log(newArr);
+console.log(...newArr); // to output the individual elemenst of the array
+
+const newMenu = [...restaurant.mainMenu, 'Gnocci'];
+console.log(...newMenu);
+
+// Copy Array
+const mainMenuCopy = [...restaurant.mainMenu];
+
+// Join arrays
+const menu = [...restaurant.mainMenu, ...restaurant.starterMenu];
+console.log(menu);
+
+const ingredients = [
+  prompt("Let's make pasta! Ingredient 1?"),
+  prompt('Ingredient 2?'),
+  prompt('Ingredient 3?'),
+];
+
+restaurant.orderPasta(...ingredients);
+
+// Objects
+const newRestaurant = { foundedIn: 1998, ...restaurant, founder: 'Giuseppe' };
+console.log(newRestaurant);
