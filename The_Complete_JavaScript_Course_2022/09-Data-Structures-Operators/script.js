@@ -40,6 +40,11 @@ const restaurant = {
   orderPasta: function (ing1, ing2, ing3) {
     console.log(`Here is your delicious past with ${ing1}, ${ing2}, ${ing3}`);
   },
+
+  orderPizza: function (mainIngredient, ...otherIngredients) {
+    console.log(mainIngredient);
+    console.log(otherIngredients);
+  },
 };
 
 restaurant.orderDelivery({
@@ -100,3 +105,32 @@ restaurant.orderPasta(...ingredients);
 // Objects
 const newRestaurant = { foundedIn: 1998, ...restaurant, founder: 'Giuseppe' };
 console.log(newRestaurant);
+
+// Rest pattern (pack elements into an array)
+const [x, y, ...others] = [1, 2, 3, 4, 5];
+console.log(x, y, others);
+
+const [pizza, , risotto, ...otherFood] = [
+  ...restaurant.mainMenu,
+  ...restaurant.starterMenu,
+];
+console.log(pizza, risotto, otherFood);
+
+// Rest with Objects
+const { sat, ...weekdays } = restaurant.openingHours;
+console.log(sat, weekdays);
+
+// Rest with functions
+const add = function (...numbers) {
+  let sum = 0;
+  numbers.forEach(element => {
+    sum += element;
+  });
+  return sum;
+};
+
+console.log(add(3, 4));
+console.log(add(3, 4, 5, 6, 7));
+console.log(add(3));
+
+restaurant.orderPizza('mushrooms', 'onion', 'olives', 'spinach');
