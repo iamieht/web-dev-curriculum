@@ -178,3 +178,12 @@ rest2.owner = rest2.owner && '<ANONYMOUS>';
 // AND assignment operator
 rest1.owner &&= '<ANONYMOUS>';
 rest2.owner &&= '<ANONYMOUS>';
+
+// Looping over arrays
+const menu2 = [...restaurant.starterMenu, ...restaurant.mainMenu];
+
+for (const item of menu2) console.log(item);
+
+for (const [i, el] of menu2.entries()) {
+  console.log(`${i + 1}: ${el}`);
+}
