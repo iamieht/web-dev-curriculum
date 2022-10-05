@@ -205,3 +205,8 @@ console.log(restaurant.order?.(0, 1) ?? 'Method does not exist');
 const users = [{ name: 'Jonas', email: 'hello@jonas.io' }];
 
 console.log(users[0]?.name ?? 'User array empty');
+
+// Looping over objects
+for (const day of Object.keys(openingHours)) {
+  console.log(day);
+}
