@@ -220,3 +220,8 @@ const ordersSet = new Set([
   'Pasta',
   'Pizza',
 ]);
+
+// Maps
+const rest = new Map();
+rest.set('name', 'Classico Italiano');
+rest.set(1, 'Firenze, Italy');
