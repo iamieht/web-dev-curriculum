@@ -210,3 +210,13 @@ console.log(users[0]?.name ?? 'User array empty');
 for (const day of Object.keys(openingHours)) {
   console.log(day);
 }
+
+// Sets
+const ordersSet = new Set([
+  'Pasta',
+  'Pizza',
+  'Pizza',
+  'Risotto',
+  'Pasta',
+  'Pizza',
+]);
