@@ -246,3 +246,6 @@ const checkMiddleSeat = function (seat) {
     console.log('You got lucky');
   }
 };
+
+console.log(airline.toLowerCase());
+console.log(airline.toUpperCase());
