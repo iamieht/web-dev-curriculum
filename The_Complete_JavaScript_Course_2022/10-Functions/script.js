@@ -1,5 +1,5 @@
 'use strict';
-
+/*
 ///////////////////////////////////////
 // Default Parameters
 const bookings = [];
@@ -29,7 +29,7 @@ createBooking('LH123', 5);
 
 createBooking('LH123', undefined, 1000);
 
-/*
+
 ///////////////////////////////////////
 // How Passing Arguments Works: Values vs. Reference
 const flight = 'LH234';
