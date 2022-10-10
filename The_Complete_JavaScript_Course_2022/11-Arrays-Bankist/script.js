@@ -79,3 +79,8 @@ let arr = ['a', 'b', 'c', 'd', 'e'];
 console.log(arr.slice(2)); // does not mutate the array
 
 console.log(arr.splice(2)); // mutates the array
+
+// at method
+const arr2 = [23, 1, , 64];
+console.log(arr2[0]);
+console.log(arr2.at(0));
