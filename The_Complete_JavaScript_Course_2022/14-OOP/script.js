@@ -39,3 +39,39 @@ bmw.accelerate();
 bmw.accelerate();
 bmw.brake();
 bmw.accelerate();
+
+// ES6 Classes
+// class expression
+const PersonCLExpression = class {};
+
+// class declaration
+class PersonCL {
+  constructor(fullName, birthYear) {
+    this.fullName = firstName;
+    this.birthYear = birthYear;
+  }
+
+  calcAge() {
+    console.log(2037 - this.birthYear);
+  }
+
+  greet() {
+    console.log(`Hey ${this.fullName}`);
+  }
+
+  get age() {
+    return 2037 - this.birthYear;
+  }
+
+  set fullName(name) {
+    if (name.includes(' ')) this._fullName = name;
+    else alert(`${name} is not a full name!`);
+  }
+
+  get fullName() {
+    return this._fullName;
+  }
+}
+
+const jessica = new PersonCL('Jessica', 1996);
+console.log(jessica.age);
