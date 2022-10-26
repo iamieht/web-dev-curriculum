@@ -112,3 +112,13 @@ ford.accelerate();
 ford.accelerate();
 ford.brake();
 ford.speedUS = 50;
+
+// Class inheritance
+class StudentCL extends PersonCL {
+  constructor(fullName, birthYear, course) {
+    super(fullName, birthYear);
+    this.course = course;
+  }
+}
+
+const martha = new StudentCL('Martha Jones', 2012, 'Computer Science');
