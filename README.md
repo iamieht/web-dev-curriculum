@@ -24,6 +24,12 @@ Web Development Curriculum (Self-taught)
 | [Programming with JavaScript](https://www.coursera.org/learn/programming-with-javascript)                                  | Completed   | [Link](https://github.com/iamieht/web-dev-curriculum/tree/main/Meta_Front-End_Developer/Programming_with_JavaScript) |
 | [JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) |
 
+## React
+
+| Course                                                           | Status | Repo |
+| ---------------------------------------------------------------- | ------ | ---- |
+| [The Joy of React](https://courses.joshwcomeau.com/joy-of-react) |
+
 ## Version Control
 
 | Course                                                                                             | Status    | Repo |
