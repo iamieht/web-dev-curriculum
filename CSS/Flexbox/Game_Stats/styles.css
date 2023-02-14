@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+html {
+  font-size: 62.5%;
+}
+* {
+  box-sizing: border-box !important;
+}
+p {
+  margin: 0;
+}
+
+body {
+  background-color: #e2f1ff;
+  font-family: "Poppins";
+  margin: 3em;
+}
+
+main {
+  border-radius: 1.1em;
+  box-shadow: 10px 10px 40px rgba(167, 195, 221, 0.49);
+  width: 100%;
+  padding: 3em;
+}
+
+.labels {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 3em;
+}
+
+.labels p {
+  font-size: 1rem;
+  color: #697e90;
+  letter-spacing: 0.1rem;
+  flex: 1;
+}
+
+p.stat-country,
+p.stat-ranking {
+  font-weight: bold;
+}
+
+.stats {
+  display: flex;
+  font-size: 1.6rem;
+  margin: 1em 0;
+}
+
+.stats p {
+  flex: 1;
+}
+
+p.stat-ranking {
+  color: #2c4257;
+}
+
+/* Your fixes */
+
+.labels {
+  display: flex;
+}
+
+p.country,
+p.stat-country {
+  flex-grow: 2;
+}
