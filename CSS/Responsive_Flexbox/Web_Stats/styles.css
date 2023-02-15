@@ -101,3 +101,36 @@ body {
 .cta p span {
   font-weight: bold;
 }
+
+@media screen and (min-width: 600px) {
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .current-visitors {
+    flex: 0.4;
+  }
+
+  .stats {
+    flex: 0.6;
+  }
+  .cta {
+    flex-basis: 100%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .container {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .cta {
+    flex: 0.4;
+  }
+
+  .cta p {
+    width: 100%;
+  }
+}
