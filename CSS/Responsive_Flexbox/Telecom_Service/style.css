@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
+html {
+  font-size: 62.5%;
+  font-family: "Nunito", sans-serif;
+}
+
+/* Layout */
+
+section {
+  padding: 4em;
+  background: #dcf8f3;
+  display: flex;
+  align-items: center;
+  gap: 2.6em 2.2em;
+  flex-direction: column;
+}
+
+/* Card styles */
+
+.card {
+  box-sizing: border-box;
+  width: 100%;
+  flex: 1;
+  padding: 3.6em 2.9em;
+  padding-right: 0em;
+  border-radius: 0.7em;
+  border: 1px solid transparent;
+}
+
+.card.primary-card {
+  background: white;
+  box-shadow: 1em 1em 3em #c5e7e1;
+}
+
+.card.secondary-card {
+  border-color: #8ca5a0;
+}
+
+/* Card copy */
+
+.card .title {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  font-size: 2.2em;
+}
+
+.card .title svg {
+  display: block;
+  margin-right: 2.2rem;
+}
+
+.card .text {
+  margin: 0;
+  font-size: 1.5em;
+  margin-top: 1.7rem;
+  color: #324441;
+  width: 92%; /* This is because the "exclusive offer" title needs more padding in the design */
+}
+
+/* Your Fixes Here */
+
+@media (min-width: 700px) {
+  section {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .secondary-card {
+    flex-basis: 100%;
+  }
+}
