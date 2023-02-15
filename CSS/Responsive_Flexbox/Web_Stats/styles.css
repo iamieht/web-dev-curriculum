@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* Percentage of user's browser font-size setting: 10px / 16px(default value) = 0.625 = 62.5% */
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #181818;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.8em;
+  margin: 4em;
+}
+
+.current-visitors {
+  background-color: #7000ff;
+  /* max-width: 350px; */
+  padding: 5em 4em;
+  border-radius: 1em;
+}
+
+.current-visitors h1 {
+  font-size: 5.5rem;
+  font-weight: bold;
+}
+
+.current-visitors p {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.stats {
+  border: 1px solid #2e2e2e;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  padding: 5em 4em;
+}
+
+.views,
+.unique-visitors {
+  display: flex;
+  gap: 1.1em;
+}
+
+.views h2,
+.unique-visitors h2 {
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+
+.views p,
+.unique-visitors p {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  align-items: center;
+}
+
+.cta a {
+  display: inline-block;
+  width: 100%;
+  background-color: #7000ff;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 1em;
+  border-radius: 0.5em;
+}
+
+.cta p {
+  font-size: 1.4rem;
+  color: #878787;
+  text-align: center;
+  width: 50%;
+}
+
+.cta p span {
+  font-weight: bold;
+}
