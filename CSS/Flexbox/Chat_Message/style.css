@@ -1,0 +1,75 @@
+/* Your Fixes */
+section {
+  display: flex;
+  justify-content: left;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Other HTML */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: rgb(52, 52, 52);
+}
+
+section {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  margin: 50px 0;
+}
+
+.person-photo {
+  width: 5.3em;
+  height: 5.3em;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.card {
+  flex: 1;
+  margin-left: 3.1em;
+  background: white;
+  border-radius: 0.5em;
+  box-sizing: border-box;
+  padding: 2.8em 3.4em;
+}
+
+/* Card top */
+
+.card .title {
+  margin: 0;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.card .message {
+  margin-top: 0.8rem;
+  font-size: 1.6em;
+  color: #2f1f29;
+}
+
+/* Card bottom */
+
+.bottom {
+  align-items: center;
+}
+
+.bottom .date {
+  font-size: 1.4em;
+  color: #695762;
+  text-transform: uppercase;
+}
+
+.bottom svg {
+  display: block;
+  cursor: pointer;
+}
