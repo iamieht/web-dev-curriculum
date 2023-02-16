@@ -1,0 +1,74 @@
+html {
+  font-size: 62.5%;
+}
+
+section {
+  background: white;
+  height: 405px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 8em;
+  padding: 50px 0;
+}
+
+.box {
+  width: 22.7em;
+  height: 22.2em;
+  border-radius: 2.5em;
+  display: flex;
+  justify-items: center;
+  align-items: flex-end;
+}
+
+section > .box:nth-child(1) {
+  background: #23bdff;
+}
+
+section > .box:nth-child(1) .person-img {
+  height: 27.6em;
+  margin-left: -1em;
+}
+
+section > .box:nth-child(2) {
+  background: #ff237f;
+}
+
+section > .box:nth-child(2) .person-img {
+  height: 25em;
+  margin-left: 1.1em;
+}
+
+section > .box:nth-child(3) {
+  background: #fff623;
+}
+
+section > .box:nth-child(3) .person-img {
+  height: 30em;
+  margin-left: -4em;
+}
+
+@media (min-width: 727px) {
+  section {
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 0;
+  }
+
+  /* Your Fixes Here */
+  /* Be sure to use selector format for each box:
+  
+  section > .box:nth-child(1) { } and so on.. */
+
+  section > .box:nth-child(1) {
+    align-self: flex-start;
+  }
+
+  section > .box:nth-child(2) {
+    align-self: center;
+  }
+
+  section > .box:nth-child(3) {
+    align-self: flex-end;
+  }
+}
