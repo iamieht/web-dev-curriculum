@@ -43,7 +43,7 @@ section.bottom {
   margin: auto;
 }
 
-.donkey {
+img {
   margin-top: 1.4em;
   width: 300px;
 }
@@ -73,4 +73,159 @@ section.bottom {
 .safety-first p,
 .tripfix p {
   font-size: 1.8rem;
+}
+
+@media screen and (min-width: 800px) {
+  .hide {
+    display: block;
+  }
+
+  img {
+    width: 195px;
+  }
+
+  section.top {
+    align-items: flex-start;
+    height: 30vh;
+    padding: 5em 5.7em;
+  }
+
+  .header h1 {
+    text-align: left;
+    font-size: 5rem;
+    font-weight: bold;
+  }
+
+  .header p {
+    margin-left: 0;
+    text-align: left;
+    font-size: 2.4rem;
+  }
+
+  .img-gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 3.4em;
+    width: 100%;
+  }
+
+  .two-img {
+    display: flex;
+    gap: 3.4em;
+    height: 40em;
+  }
+
+  .donkey {
+    align-self: flex-start;
+  }
+
+  section.bottom {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 0;
+    padding-top: 10em;
+  }
+
+  .fast-pass {
+    flex-basis: 100%;
+    align-items: flex-start;
+    /* text-align: left; */
+  }
+
+  .safety-first {
+    margin-top: 4.2em;
+    align-items: flex-start;
+    text-align: left;
+    width: 50%;
+  }
+
+  .tripfix {
+    margin-top: 4.2em;
+    align-items: flex-start;
+    text-align: left;
+    width: 50%;
+  }
+
+  .safety-first p,
+  .tripfix p {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  section.top {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    padding: 7.5em 5.7em;
+    justify-content: space-between;
+    height: 30vh;
+  }
+
+  img {
+    width: 218px;
+  }
+
+  .img-gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3.4em;
+    width: 100%;
+  }
+
+  .two-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 3em;
+    height: 42em;
+  }
+
+  .single-img {
+    display: flex;
+    flex-direction: column;
+    height: 42em;
+    justify-content: center;
+  }
+
+  /* .donkey {
+    align-self: flex-start;
+  } */
+
+  section.bottom {
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .fast-pass {
+    flex: auto;
+    align-items: center;
+  }
+
+  .safety-first,
+  .tripfix {
+    margin-top: 0;
+    align-items: center;
+    text-align: center;
+  }
+
+  .header h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 10rem;
+    margin-bottom: 1.4rem;
+  }
+
+  .header p {
+    margin-left: 0;
+    text-align: left;
+    width: 100%;
+    font-size: 2.4rem;
+    /* margin-left: 5rem; */
+  }
 }
