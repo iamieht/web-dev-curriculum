@@ -7,8 +7,9 @@ Web Development Curriculum (Self-taught)
 | Course                                                                                                                                          | Status      | Repo                                                                                                                 |
 | ----------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | -------------------------------------------------------------------------------------------------------------------- |
 | [Build Responsive Real-World Websites with HTML and CSS](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/) | Completed   | [Link](https://github.com/iamieht/web-dev-curriculum/tree/main/Build_Responsive_Real-World_Websites_with_HTML%26CSS) |
+| [The HTML & CSS Bootcamp 2023 Edition](https://www.udemy.com/course/html-and-css-bootcamp/)                                                     | ------      | ------                                                                                                               |
 | [Designcourse CSS](https://designcourse.com/css)                                                                                                | In Progress | [Link](https://github.com/iamieht/web-dev-curriculum/tree/main/CSS)                                                  |
-| [Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://www.udemy.com/course/advanced-css-and-sass/)                               | -------     |
+| [Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://www.udemy.com/course/advanced-css-and-sass/)                               | -------     | ------                                                                                                               |
 
 ## JavaScript
 
@@ -19,6 +20,6 @@ Web Development Curriculum (Self-taught)
 
 ## React
 
-| Course                                                           | Status | Repo |
-| ---------------------------------------------------------------- | ------ | ---- |
-| [The Joy of React](https://courses.joshwcomeau.com/joy-of-react) |
+| Course                                                           | Status | Repo   |
+| ---------------------------------------------------------------- | ------ | ------ |
+| [The Joy of React](https://courses.joshwcomeau.com/joy-of-react) | ------ | ------ |
